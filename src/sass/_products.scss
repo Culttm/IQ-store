@@ -1,0 +1,102 @@
+.products{
+
+	.markers{
+		display: block;
+		position: absolute;
+		right: 0;
+		top: 0;
+		z-index: 2;
+	}
+
+	&__item{
+		max-width: 185px;
+		margin: 0 auto;
+	}
+
+	&__thumb{
+		@include transition(opacity $base-transition-timing ease);
+		position: relative;
+		margin-bottom: 19px;
+
+		&:hover{
+			opacity: .8;
+		}
+	}
+
+	&__title{
+		font-family: $dinnext-regular;
+		color: #000;
+		text-transform: uppercase;
+		font-size: $font-size-base - 3;
+	    display: inline-block;
+	    line-height: 1.2;
+	    letter-spacing: .4px;
+	}
+
+	&__main-data{
+		margin-bottom: 3px;
+
+		& + .products__rating{
+			margin-top: 6px;
+		}
+	}
+
+	&__cost{
+		white-space: nowrap;
+		font-size: 0;
+		margin: -6px 0 0 -5px;
+	}
+
+	&__currency{
+		font-family: $dinnext-regular;
+		font-size: $font-size-base;
+		margin: 0 -1px 0 0px;
+	}
+
+	&__f-part{
+		font-family: $dinnext-medium;
+		font-size: $font-size-base + 15;
+	}
+
+	&__s-part{
+		font-family: $dinnext-medium;
+		font-size: $font-size-base + 2;
+		display: inline-block;
+		vertical-align: top;
+		margin: 3px 0 0 -1px;
+	}
+
+	&__secondary-data{
+		color: #9ca5aa;
+		font-size: $font-size-base - 3;
+		text-transform: uppercase;
+		font-family: $dinnext-regular;
+		margin-bottom: 9px;
+	}
+
+	&__save{
+		letter-spacing: -.3px;
+	}
+
+	&__old-cost{
+		text-decoration: line-through;
+		font-size: $font-size-base;
+		margin: -5px 0 0 -4px;
+	
+		&__currency{
+			font-size: $font-size-base - 3;
+		}
+
+	}
+
+	&__rating{
+
+		.value{
+			font-size: $font-size-base - 3;
+			font-family: $dinnext-light;
+			display: inline-block;
+			vertical-align: top;
+			margin: 3px 0 0 6px;
+		}
+	}
+}

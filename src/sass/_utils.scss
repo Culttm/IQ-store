@@ -1,0 +1,62 @@
+.img{
+	
+	&--responsive{
+		max-width: 100%;
+	}
+
+	&--full-width{
+		width: 100%;
+	}
+
+	&--block{
+		display: block;
+	}
+
+	&--inline{
+		display: inline-block;
+	}
+}
+
+.align{
+	&--right{
+		text-align: right;
+	}
+
+	&--left{
+		text-align: left;
+	}
+
+	&--center{
+		text-align: center;
+	}
+}
+
+
+.md-show{
+	display: none;
+}
+
+
+@include brk($max: $screen-desktop) {
+	.md-hide{
+		display: none !important;
+	}
+
+	.md-show{
+		display: block;
+	}
+};
+
+
+@include brk($max: $screen-tablet) {
+	.sm-hide{
+		display: none !important;
+	}
+
+};
+
+@include brk($max: $screen-phone) {
+	.xs-hide{
+		display: none !important;
+	}
+};

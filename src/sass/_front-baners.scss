@@ -1,0 +1,54 @@
+.front-baners{
+
+	.item{
+		margin-bottom: 10px;
+	
+		&__title{
+			font-family: $PFtcp-thin;
+			padding: 9px 0 0 14px;
+			line-height: 1.1;
+			margin-bottom: 11px;
+
+			&--first{
+				text-transform: uppercase;
+				font-size: 60px;
+				font-weight: bold;
+				letter-spacing: 1.6px;
+				display: inline-block;
+				margin-right: 4px;
+			}
+
+			&--second{
+				font-size: 58px;
+				margin: -19px 0 0 0;
+				display: inline-block;
+			}
+		}
+
+		&__text{
+			position: relative;
+			padding: 5px 0 6px 21px;
+			line-height: 1.4;
+			margin-top: 19px;
+
+			&:before{
+				display: block;
+				content: '';
+				width: 13px;
+				height: 100%;
+				border-left: 1px solid #000;
+				border-top: 1px solid #000;
+				border-bottom: 1px solid #000;
+				position: absolute;
+				left: 0;
+				top: 0;
+			}
+
+			@include brk($max: $screen-desktop) {
+				margin-top: 0;
+				margin-bottom: 19px;
+			};
+		}
+	}
+
+}

@@ -1,0 +1,36 @@
+{
+  "name": "test task",
+  "version": "0.0.1",
+  "authors": [
+    "Culttm <culttm@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "src/vendors",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap-sass": "~3.3.5",
+    "owl.carousel": "~2.0.0-beta.3",
+    "jquery": "1.8.3",
+    "object.keys": "*"
+  },
+  "overrides": {
+    "jquery": {
+      "main": "jquery.min.js"
+    },
+    "owl.carousel": {
+      "main": "dist/owl.carousel.js"
+    },
+    "bootstrap-sass": {
+      "main": "null"
+    },
+    "object.keys":{
+      "main":"src/object.keys.js"
+    }
+  }
+}

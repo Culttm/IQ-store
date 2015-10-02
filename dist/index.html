@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>IQ store</title>
+
+		<link rel="stylesheet" href="css/style.css">
+
+		<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+		<!--[if lt IE 9]>
+			<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+			<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+		<![endif]-->
+	</head>
+<body>
+	<!-- Header start -->
+	<header class="header">
+		<div class="top">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-5">
+						<span class="top__item top__item--icon top__item--phone">1-800-555-1234</span>
+						<a href="#" class="top__item top__item--link top__item--icon top__item--location sm-hide">Store Locator</a>
+					</div>
+					<div class="col-xs-5 align--right">
+						<a href="#" class="top__item top__item--link top__item--icon top__item--right-arrow top__item--lang"><span class="sm-hide">Language</span></a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="middle">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-2 md-show">
+						<div data-nav-toggle="#main-nav" class="burger">
+							<div></div>
+							<div></div>
+							<div></div>
+						</div>
+					</div>
+					<div class="col-xs-6 col-md-2">
+						<div class="logo"><a href=""><img src="images/logo.png" alt="" class="img img--responsive img--inline"></a></div>
+					</div>
+					<div class="col-sm-6 md-hide">
+						<div class="search">
+							<form action="#">
+								<span class="search__icon"></span>
+								<input class="search__control" type="text">
+							</form>
+						</div>
+					</div>
+					<div class="col-xs-2 align--right">
+						<a href="" class="basket">
+							<span class="basket__icon"><span class="count">4</span></span>
+							<span class="basket__title md-hide">shopping bag:</span>
+							<span class="basket__data md-hide">Subtotal: <span class="basket__data__value">$1500.00</span></span>
+							<span class="basket__data md-hide">Cart: 4 item(s)</span>
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+		<nav id="main-nav" data-threshold="992" class="main-nav">
+			<div class="container">
+				<ul class="main-nav__list">
+					<li class="main-nav__item"><a href="" class="main-nav__link">new arrivals</a></li>
+					<li class="main-nav__item"><a href="" class="main-nav__link">collections</a></li>
+					<li class="main-nav__item"><a href="" class="main-nav__link">shoes</a></li>
+					<li class="main-nav__item"><a href="" class="main-nav__link">bags</a></li>
+					<li class="main-nav__item"><a href="" class="main-nav__link">lingerie</a></li>
+					<li class="main-nav__item"><a href="" class="main-nav__link">swim </a></li>
+					<li class="main-nav__item"><a href="" class="main-nav__link">accessories</a></li>
+					<li class="main-nav__item"><a href="" class="main-nav__link">sale</a></li>
+				</ul>
+			</div>
+		</nav>
+	</header>
+	<!-- Header end -->
+	<!-- Front baners start -->
+	<div class="container">
+		<div class="module front-baners">
+			<div class="row">
+				<div class="col-sm-5">
+					<div class="item">
+						<a href=""><img src="assets/product-1.jpg" alt="" class="img img--full-width img--block"></a>
+					</div>
+					<div class="item">
+						<div class="row">
+							<div class="col-md-4">
+								<div class="item__title">
+									<div class="item__title--first">Summer</div>
+									<div class="item__title--second">collection</div>
+								</div>
+							</div>
+							<div class="col-md-6">
+								<div class="item__text">
+									Lorem ipsum dolor sit amet, consecter adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.  Lorem ipsum dolor amet elit.
+								</div>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-xs-5">
+								<a href=""><img src="assets/product-2.jpg" alt="" class="img img--full-width img--block"></a>
+							</div>
+							<div class="col-xs-5">
+								<a href=""><img src="assets/product-3.jpg" alt="" class="img img--full-width img--block"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-5">
+					<div class="row">
+						<div class="col-xs-4">
+							<div class="item">
+								<a href=""><img src="assets/product-4.jpg" alt="" class="img img--full-width img--block"></a>
+							</div>
+							<div class="item">
+								<a href=""><img src="assets/product-6.jpg" alt="" class="img img--full-width img--block"></a>
+							</div>
+						</div>
+						<div class="col-xs-6">
+							<div class="item">
+								<a href=""><img src="assets/product-5.jpg" alt="" class="img img--full-width img--block"></a>
+							</div>
+							<div class="item">
+								<a href=""><img src="assets/product-7.jpg" alt="" class="img img--full-width img--block"></a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Front baners end -->
+	<!-- Carousel start -->
+	<div class="container">
+		<div class="module">
+			<div class="module__title">
+				<span class="module__title__text">New This Week</span>
+			</div>
+			<div data-plugin-options='{"items":4, "loop": false, "nav": true, "mouseDrag": false, "margin":10}' data-responsive-options='{"0":1, "340": 1, "478": 2, "768": 3, "992": 4}' class="carousel products">
+				<div class="products__item">
+					<div class="products__thumb">
+						<a href="">
+							<span class="markers">
+								<span class="marker marker--sale">Sale</span>
+							</span>
+							<img src="assets/product-8.jpg" alt="" class="img img--responsive img--block">
+						</a>
+					</div>
+					<div class="products__main-data">
+						<div class="row">
+							<div class="col-xs-6">
+								<a class="products__title" href="">Swiss embroidery cotton dress</a>
+							</div>
+							<div class="col-xs-4">
+								<div class="products__cost">
+									<span class="products__currency">$</span>
+									<span class="products__f-part">59.</span>
+									<span class="products__s-part">90</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="products__secondary-data">
+						<div class="row">
+							<div class="col-xs-6">
+								<div class="products__save">Save: $40.00 (35%)</div>
+							</div>
+							<div class="col-xs-4">
+								<div class="products__old-cost">
+									<span class="products__old-cost__currency">$</span>99.99
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="products__rating">
+						<span class="rating">
+							<span class="rating__item rating__item--active"></span>
+							<span class="rating__item rating__item--active"></span>
+							<span class="rating__item rating__item--active"></span>
+							<span class="rating__item rating__item--active"></span>
+							<span class="rating__item"></span>
+						</span>
+						<span class="value">4/5 (22)</span>
+					</div>
+				</div>
+				<div class="products__item">
+					<div class="products__thumb">
+						<a href="">
+							<img src="assets/product-9.jpg" alt="" class="img img--responsive img--block">
+						</a>
+					</div>
+					<div class="products__main-data">
+						<div class="row">
+							<div class="col-xs-6">
+								<a class="products__title" href="">Striped pleated dress</a>
+							</div>
+							<div class="col-xs-4">
+								<div class="products__cost">
+									<span class="products__currency">$</span>
+									<span class="products__f-part">39.</span>
+									<span class="products__s-part">99</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="products__secondary-data">
+						<div class="row">
+							<div class="col-xs-6">
+								<div class="products__save">Save: $40.00 (35%)</div>
+							</div>
+							<div class="col-xs-4">
+								<div class="products__old-cost">
+									<span class="products__old-cost__currency">$</span>49.99
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="products__rating">
+						<span class="rating">
+							<span class="rating__item rating__item--active"></span>
+							<span class="rating__item rating__item--active"></span>
+							<span class="rating__item rating__item--active"></span>
+							<span class="rating__item rating__item--active"></span>
+							<span class="rating__item"></span>
+						</span>
+						<span class="value">4/5 (22)</span>
+					</div>
+				</div>
+				<div class="products__item">
+					<div class="products__thumb">
+						<a href="">
+							<img src="assets/product-10.jpg" alt="" class="img img--responsive img--block">
+						</a>
+					</div>
+					<div class="products__main-data">
+						<div class="row">
+							<div class="col-xs-6">
+								<a class="products__title" href="">Linen cotton blend dress</a>
+							</div>
+							<div class="col-xs-4">
+								<div class="products__cost">
+									<span class="products__currency">$</span>
+									<span class="products__f-part">34.</span>
+									<span class="products__s-part">99</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="products__secondary-data">
+						<div class="row">
+							<div class="col-xs-6">
+								<div class="products__save">Save: $40.00 (35%)</div>
+							</div>
+							<div class="col-xs-4">
+								<div class="products__old-cost">
+									<span class="products__old-cost__currency">$</span>59.99
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="products__rating">
+						<span class="rating">
+							<span class="rating__item rating__item--active"></span>
+							<span class="rating__item rating__item--active"></span>
+							<span class="rating__item rating__item--active"></span>
+							<span class="rating__item"></span>
+							<span class="rating__item"></span>
+						</span>
+						<span class="value">4/5 (22)</span>
+					</div>
+				</div>
+				<div class="products__item">
+					<div class="products__thumb">
+						<a href="">
+							<img src="assets/product-11.jpg" alt="" class="img img--responsive img--block">
+						</a>
+					</div>
+					<div class="products__main-data">
+						<div class="row">
+							<div class="col-xs-6">
+								<a class="products__title" href="">Swiss embroidery cotton dress</a>
+							</div>
+							<div class="col-xs-4">
+								<div class="products__cost">
+									<span class="products__currency">$</span>
+									<span class="products__f-part">39.</span>
+									<span class="products__s-part">90</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="products__rating">
+						<span class="rating">
+							<span class="rating__item rating__item--active"></span>
+							<span class="rating__item rating__item--active"></span>
+							<span class="rating__item rating__item--active"></span>
+							<span class="rating__item rating__item--active"></span>
+							<span class="rating__item"></span>
+						</span>
+						<span class="value">4/5 (22)</span>
+					</div>
+				</div>
+				<div class="products__item">
+					<div class="products__thumb">
+						<a href="">
+							<span class="markers">
+								<span class="marker marker--sale">Sale</span>
+							</span>
+							<img src="assets/product-8.jpg" alt="" class="img img--responsive img--block">
+						</a>
+					</div>
+					<div class="products__main-data">
+						<div class="row">
+							<div class="col-xs-6">
+								<a class="products__title" href="">Swiss embroidery cotton dress</a>
+							</div>
+							<div class="col-xs-4">
+								<div class="products__cost">
+									<span class="products__currency">$</span>
+									<span class="products__f-part">59.</span>
+									<span class="products__s-part">90</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="products__secondary-data">
+						<div class="row">
+							<div class="col-xs-6">
+								<div class="products__save">Save: $40.00 (35%)</div>
+							</div>
+							<div class="col-xs-4">
+								<div class="products__old-cost">
+									<span class="products__old-cost__currency">$</span>99.99
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="products__rating">
+						<span class="rating">
+							<span class="rating__item rating__item--active"></span>
+							<span class="rating__item rating__item--active"></span>
+							<span class="rating__item rating__item--active"></span>
+							<span class="rating__item rating__item--active"></span>
+							<span class="rating__item"></span>
+						</span>
+						<span class="value">4/5 (22)</span>
+					</div>
+				</div>
+				<div class="products__item">
+					<div class="products__thumb">
+						<a href="">
+							<img src="assets/product-9.jpg" alt="" class="img img--responsive img--block">
+						</a>
+					</div>
+					<div class="products__main-data">
+						<div class="row">
+							<div class="col-xs-6">
+								<a class="products__title" href="">Striped pleated dress</a>
+							</div>
+							<div class="col-xs-4">
+								<div class="products__cost">
+									<span class="products__currency">$</span>
+									<span class="products__f-part">39.</span>
+									<span class="products__s-part">99</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="products__secondary-data">
+						<div class="row">
+							<div class="col-xs-6">
+								<div class="products__save">Save: $40.00 (35%)</div>
+							</div>
+							<div class="col-xs-4">
+								<div class="products__old-cost">
+									<span class="products__old-cost__currency">$</span>49.99
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="products__rating">
+						<span class="rating">
+							<span class="rating__item rating__item--active"></span>
+							<span class="rating__item rating__item--active"></span>
+							<span class="rating__item rating__item--active"></span>
+							<span class="rating__item rating__item--active"></span>
+							<span class="rating__item"></span>
+						</span>
+						<span class="value">4/5 (22)</span>
+					</div>
+				</div>
+				<div class="products__item">
+					<div class="products__thumb">
+						<a href="">
+							<img src="assets/product-10.jpg" alt="" class="img img--responsive img--block">
+						</a>
+					</div>
+					<div class="products__main-data">
+						<div class="row">
+							<div class="col-xs-6">
+								<a class="products__title" href="">Linen cotton blend dress</a>
+							</div>
+							<div class="col-xs-4">
+								<div class="products__cost">
+									<span class="products__currency">$</span>
+									<span class="products__f-part">34.</span>
+									<span class="products__s-part">99</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="products__secondary-data">
+						<div class="row">
+							<div class="col-xs-6">
+								<div class="products__save">Save: $40.00 (35%)</div>
+							</div>
+							<div class="col-xs-4">
+								<div class="products__old-cost">
+									<span class="products__old-cost__currency">$</span>59.99
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="products__rating">
+						<span class="rating">
+							<span class="rating__item rating__item--active"></span>
+							<span class="rating__item rating__item--active"></span>
+							<span class="rating__item rating__item--active"></span>
+							<span class="rating__item"></span>
+							<span class="rating__item"></span>
+						</span>
+						<span class="value">4/5 (22)</span>
+					</div>
+				</div>
+				<div class="products__item">
+					<div class="products__thumb">
+						<a href="">
+							<img src="assets/product-11.jpg" alt="" class="img img--responsive img--block">
+						</a>
+					</div>
+					<div class="products__main-data">
+						<div class="row">
+							<div class="col-xs-6">
+								<a class="products__title" href="">Swiss embroidery cotton dress</a>
+							</div>
+							<div class="col-xs-4">
+								<div class="products__cost">
+									<span class="products__currency">$</span>
+									<span class="products__f-part">39.</span>
+									<span class="products__s-part">90</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="products__rating">
+						<span class="rating">
+							<span class="rating__item rating__item--active"></span>
+							<span class="rating__item rating__item--active"></span>
+							<span class="rating__item rating__item--active"></span>
+							<span class="rating__item rating__item--active"></span>
+							<span class="rating__item"></span>
+						</span>
+						<span class="value">4/5 (22)</span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- Carousel end -->
+	<script src="js/libs.js"></script>
+	<script src="js/main.js"></script>
+</body>
+</html>

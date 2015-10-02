@@ -1,0 +1,61 @@
+$base-transition-timing: 0.2s;
+
+//== Large screen / wide desktop
+$grid-columns: 10;
+$grid-gutter-width:         10px;
+$container-large-desktop:      (960px + $grid-gutter-width);
+$container-lg:                 $container-large-desktop;
+
+
+
+//== Typography
+
+$din-light: 'DINPro-Light', sans-serif;
+
+$dinnext-regular: 'DINNextLTPro-Regular';
+$dinnext-medium: 'DINNextLTPro-Medium';
+$dinnext-light: 'DINNextLTPro-Light';
+
+$PFtcp-regular: 'pf_din_text_comp_proregular';
+$PFtcp-light: 'pf_din_text_comp_prolight';
+$PFtcp-thin: 'pf_din_text_comp_prothin';
+
+
+$font-family-sans-serif:  'sans-serif';
+$font-family-base:        $din-light;
+$font-size-base:          14px;
+
+$font-size-h1:            floor(($font-size-base * 3.08)); // ~40px
+$font-size-h2:            floor(($font-size-base * 2.43)); // 34~px
+$font-size-h3:            ceil(($font-size-base * 1.53)); // ~20px
+$font-size-h4:            ceil(($font-size-base * 1.35)); // ~18px
+$font-size-h5:            $font-size-base !default;
+$font-size-h6:            ceil(($font-size-base * 0.85)); // ~12px
+
+$line-height-base:        1.356;
+$line-height-computed:    floor(($font-size-base * $line-height-base)); // ~20px
+$headings-font-weight:    normal;
+
+
+//== Forms
+$input-height-base: 33px;
+$padding-base-vertical: 8px;
+$padding-base-horizontal: 22px;
+$input-border: #ccc;
+$form-group-margin-bottom: 12px;
+
+
+
+
+//== Colors
+$text-color: #000;
+$link-color: #231f20;
+$color-primary: #ff6138;
+$color-primary-2: #79bd8f;
+$color-secondary: #00a388;
+
+
+// Theme
+$body-bg-color: #fff;
+$header-top-bg-color:#060e0c;
+$header-top-text-color:#c4cdcb;
